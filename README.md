@@ -35,7 +35,7 @@ Usa o Kernel do sistema base.
 
 Forma rápida e confiável de subir uma aplicação em vários lugares da mesma maneira sem precisar de uma iso do sistema todo.
 
-Pode ser construido de forma simples com arquivos de texto (.yml e Dockerfile) e portanto podem ser versionados.
+Pode ser construído de forma simples com arquivos de texto (.yml e Dockerfile) e portanto podem ser versionados.
 
 Possibilita atualizações automáticas e testes de integração (CI/CD)
 
@@ -102,7 +102,7 @@ Algumas flags do [run](https://docs.docker.com/engine/reference/run/)
 Nome do seu container
 
 
-## Acessar o terminal de um contaier:
+## Acessar o terminal de um container:
 
 ```Bash
 $
@@ -139,7 +139,7 @@ Formato yml (as vezes .yaml) e funciona como um json, porém formatado sem " e s
 
 As opções (flags) podem ser passadas dentro deste arquivo.
 
-# Referencias:
+# Referências:
 
 https://www.weave.works/blog/a-practical-guide-to-choosing-between-docker-containers-and-vms
 
