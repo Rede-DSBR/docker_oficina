@@ -55,13 +55,13 @@ Ver, listar, acessar, criar, apagar imagens e containers.
 Listar containers, imagens e volumes
 
 ```Bash
-$
+$ docker ps
 ```
 
 Apagar uma imagem:
 
 ```Bash
-$
+$ docker image ls
 ```
 
 ## Rodando um container do repositório do Docker
@@ -123,6 +123,13 @@ Comandos para fazer um build
 * WORKDIR
 * ENTRYPOINT
 * CMD
+
+
+Linux (ubuntu)
+apt install python3-pip
+pip install -r requeriments.txt
+python app.py
+
 
 ## Criando um dockerfile para flask com ubuntu
 Aplicação deverá usar ubuntu, instalar python, flask e rodar um servidor de aplicação entregando um html simples.
