@@ -1,4 +1,6 @@
 
+postgres-data/*
+
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
